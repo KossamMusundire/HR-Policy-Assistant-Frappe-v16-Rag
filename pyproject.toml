@@ -1,10 +1,10 @@
 [project]
 name = "hr_policy_assistant"
 authors = [
-    { name = "Shrey", email = "shreysavagave@gmail.com" }
+    { name = "Shrey", email = "shreysavagave@gmail.com"}
 ]
 description = "This is a AI Application in which the bot will answer based on hr policies which are uploaded by hr"
-requires-python = "3.14"
+requires-python = ">=3.14"
 readme = "README.md"
 dynamic = ["version"]
 dependencies = [
@@ -17,10 +17,10 @@ build-backend = "flit_core.buildapi"
 
 # These dependencies are only installed when developer mode is enabled
 [tool.bench.dev-dependencies]
-# package_name = "~=1.1.0"
 
 [tool.bench.frappe-dependencies]
 frappe = ">=16.0.0,<17.0.0"
+# package_name = "~=1.1.0"
 
 # These apt dependencies will be installed from Ubuntu repositories when you host your app on Frappe Cloud
 [deploy.dependencies.apt]
@@ -28,7 +28,7 @@ packages = []
 
 [tool.ruff]
 line-length = 110
-target-version = "py312"
+target-version = "py314"
 
 [tool.ruff.lint]
 select = [
