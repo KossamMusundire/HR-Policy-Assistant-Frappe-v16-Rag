@@ -4,7 +4,7 @@ authors = [
     { name = "Shrey", email = "shreysavagave@gmail.com" }
 ]
 description = "This is a AI Application in which the bot will answer based on hr policies which are uploaded by hr"
-requires-python = ">=3.11,<3.13"
+requires-python = "3.14"
 readme = "README.md"
 dynamic = ["version"]
 dependencies = [
